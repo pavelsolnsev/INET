@@ -1,0 +1,507 @@
+/* ------ Fonts ------ */
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/OpenSans.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/OpenSans.woff') format('woff'), /* Pretty Modern Browsers */
+	url('../fonts/OpenSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/OpenSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url('../fonts/OpenSans-Bold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/OpenSans-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/OpenSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+	url('../fonts/OpenSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/OpenSans-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'OpenSans-Italic';
+	src: url('../fonts/OpenSans-Italic.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/OpenSans-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/OpenSans-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+	url('../fonts/OpenSans-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/OpenSans-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: url('../fonts/MyriadPro-Regular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/MyriadPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/MyriadPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+	url('../fonts/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* ------Specification------ */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #2d3033;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	line-height: 1.4em;
+	color: #6c7279;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Bold';
+}
+
+h4 {
+	font-size: 14px;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+{
+	outline: none;
+}
+
+.btn {
+	background: #e84545;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Bold';
+	width: 200px;
+	padding: 13px 0;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn:hover {
+	background: #fff;
+	color: #e84545;
+	transition: all 0.5s ease;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.container-fluid_plain {
+	padding: 0;
+}
+
+/*-------Header-------*/
+
+.header {
+	background: url(..//img/nk2.jpg) no-repeat center top / cover;
+	color: #fff;
+	padding: 36px 0 244px;
+}
+
+.logo {
+	font-family: 'OpenSans-Bold';
+	font-size: 30px;
+	color: #626fe4;
+	text-transform: uppercase;
+}
+
+.logo span {
+	color: #fff;
+	font-family: 'Open Sans';
+}
+
+.menu {
+	margin-top: 15px;
+}
+
+.menu__item a {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	padding: 0 36px 36px;
+	border-bottom: 3px solid transparent;
+}
+
+.menu__item:last-child a {
+	padding: 0 0 36px 36px;
+
+}
+
+.menu__item a:hover {
+	border-bottom: 3px solid rgba(255,255,255,0.5);
+}
+
+.offer {
+	text-align: center;
+	margin-top: 27px;
+	padding-top: 174px;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);;
+}
+
+.offer__title {
+	font-size: 45px;
+}
+
+.offer__text {
+	font-size: 22px;
+	color: #fff;
+	margin: 25px auto 30px;
+	width: 50%;
+}
+
+/*-------First section-------*/
+
+.section {
+	padding: 120px 0 52px;
+}
+
+.wrap {
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.wrap__title {
+	#2d3033;
+	margin: 32px 0 29px;
+}
+
+.wrap__text {
+	color: #84898e;
+	width: auto;
+}
+
+/*-------Picture section-------*/
+
+.picture {
+	padding-bottom: 100px;
+}
+
+.view {
+	position: relative;
+	margin-bottom: 26px;
+}
+
+.view__icon {
+	max-width: 100%;
+}
+
+.view__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.5s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: rgba(232,69,69,0.9);
+}
+
+.view__overlay:hover {
+	opacity: 1;
+}
+
+.view__title {
+	color: #fff;
+	padding-bottom: 12px;
+}
+
+.view__text {
+	color: #fff;
+}
+
+/*-------Portrait section-------*/
+
+.portrait {
+	padding: 100px 0 114px;
+}
+
+.people__img {
+	max-width: 100%;
+}
+
+.people__title {
+	text-transform: none;
+	font-size: 22px;
+	color: #2d3033;
+	margin: 27px 0 14px;
+}
+
+.people__text-red {
+	font-size: 13px;
+	color: #e96467;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.people__text {
+	font-size: 13px;
+	margin: 30px 0 30px;
+}
+
+.people__link {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #c6cacc;
+	background: #fff;
+	text-align: center;
+	margin-right: 3px;
+	display: block;
+}
+
+.people__link:hover {
+	border: 1px solid #000;
+	transition: all 0.5s ease;
+}
+
+.people__icon {
+	color: #c6cacc;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+/*-------Client section-------*/
+
+.client {
+	background: #53354a;
+}
+
+.woman {
+	background: url(..//img/Layer19.jpg) no-repeat center top / cover;
+	height: 100%;
+	}
+
+.fon {
+	padding: 134px 0 151px 50px;
+	width: 100%;
+	}
+
+.fon__text-big {
+	width: 500px;
+	font-size: 36px;
+	font-family: 'OpenSans-Italic';
+	color: #fff;
+}
+
+.fon__text-small {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 29px;
+}
+
+/*-------Start section-------*/
+
+.start {
+	padding: 98px 0 98px;
+}
+
+.download {
+	text-align: center;
+}
+
+.download__title {
+	font-size: 28px;
+	text-transform: capitalize;
+}
+
+.download__text {
+	font-size: 13px;
+	margin: 14px 0 41px;
+	text-transform: uppercase;
+}
+
+.download__button {
+	width: 277px;
+}
+
+.download__button:hover {
+	border: 1px solid #e84545;
+}
+
+/*-------Footer-------*/
+
+.footer	{
+	background: #3a3e64;
+	padding: 88px 0 84px;
+}
+
+.services {
+	text-align: center;
+}
+
+.services__title {
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.services__text {
+	font-size: 14px;
+}
+.services__text-white {
+	color: #adaebb;
+}
+
+.services__red	{
+	color: #b94250;
+	text-transform: uppercase;
+}
+
+.services__white {
+	color: #fff;
+}
+
+/* Media Queries */
+
+/* 992 - 1140 px */
+@media screen and (max-width: 1140px) {
+	.fon__text-big {
+		width: 90%;
+	}
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+
+	.logo {
+		justify-content: center
+	}
+
+	.people	{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.people__img {
+		width: 270px;
+	}
+
+	.people__networks {
+		justify-content: center;
+	}
+
+	.woman {
+	height: 300px;
+	}
+
+	.fon {
+		padding: 82px 0 82px 50px;  
+	}
+
+	.services {
+		width: 100%;
+    	margin: 0 auto 40px auto;
+	}
+
+	.footer	{
+		padding: 88px 0 43px;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+
+	.logo {
+		justify-content: center;
+	}
+
+	.header	{
+		padding: 36px 0 222px;
+	}
+
+	.fon {
+		text-align: center;
+	}
+
+	.fon__text-big {
+		width: 95%;
+	}
+
+	.fon__text-small {
+		width: 90%;
+	}
+
+	.offer {
+		padding-top: 131px;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+
+	nav {
+		display: none;
+	}
+
+	.header	{
+		padding-bottom: 130px;
+	}
+
+	.offer {
+		padding-top: 70px;
+	}
+
+	.offer__title {
+		font-size: 40px;
+	}
+
+	.fon {
+	    padding: 18px 0 48px 50px;
+	}
+
+	.fon__text-big {
+		font-size: 20px;
+		width: 88%;
+	}
+
+	.woman {
+		height: 200px;
+	}
+
+	.fon__text-small {
+		font-size: 10px;
+	}
+
+	.start {
+		padding: 70px 0 70px;
+	}
+
+	.services {
+		width: 70%;
+	}
+}
